@@ -15,7 +15,8 @@ public class Main {
                     1 Agregar estudiantes
                     2 Mostrar aprobados, reprobados, examenes
                     3 Llenar con notas aleatorias
-                    4 Mostrar alumnos(vertical) y notas(horizontal)""");
+                    4 Mostrar alumnos(vertical) y notas(horizontal)
+                    5 Mostrar alumnos y sus promedios""");
             System.out.print("Ingrese opcion: ");
             resp = entrada.nextInt();
 
@@ -51,7 +52,7 @@ public class Main {
     }
     public static void calcularPromedios(double[][] matriz) {
         for (int i = 0; i < matriz.length; i++) {
-            System.out.println("promedio de alumno:"+(i+1)+ calcularPromedio(matriz,i));
+            System.out.println("promedio de alumno: "+(i+1)+": "+ calcularPromedio(matriz,i));
         }
     }
     public static double calcularPromedio (double [][]matriz, int estudiante) {
