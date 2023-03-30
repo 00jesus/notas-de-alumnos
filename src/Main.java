@@ -36,6 +36,7 @@ public class Main {
                 } else if (matriz[i][j] != 0) {
                     System.out.println("ya hay nota en estudiante: "+(i+1)+" nota n°:"+(j+1));
                 }
+                //metodos
             }
         }
         return matriz;
